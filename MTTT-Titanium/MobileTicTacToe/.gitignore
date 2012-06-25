@@ -1,1 +1,11 @@
-tmp
+.DS_Store
+.fastdev.lock
+.gitignore
+.project
+CHANGELOG.txt
+LICENSE
+LICENSE.txt
+build.log 	
+build.log~ 
+manifest 
+tiapp.xml
