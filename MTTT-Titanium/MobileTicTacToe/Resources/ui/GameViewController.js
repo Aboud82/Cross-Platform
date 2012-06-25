@@ -131,7 +131,6 @@ Ti.include('/ki/ki.js');
 	var returnToGameMenu = function() {
 		mttt.app.gvc.view.remove(mttt.app.gvc.grid);
 		mttt.app.gvc.view.remove(mttt.app.gvc.playerLabel);
-
 		for (var i = 0; i < mttt.app.gvc.buttonsArray.length; i++) {
 			mttt.app.gvc.view.remove(mttt.app.gvc.buttonsArray[i]);
 		}
@@ -147,7 +146,6 @@ Ti.include('/ki/ki.js');
 			}
 		}
 		if (mttt.app.gvc.turn == 8) {
-
 			return 1;
 		}
 		return 0;

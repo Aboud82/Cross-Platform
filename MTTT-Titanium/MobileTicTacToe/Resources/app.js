@@ -22,4 +22,3 @@ mttt.app.mapvc.attachToTab(twoTab);
 mttt.app.gvc = mttt.ui.createGameStartMenuView();
 var oneTab = mttt.app.tabGroup.tabs[0];
 mttt.app.gvc.attachToTab(oneTab);
-

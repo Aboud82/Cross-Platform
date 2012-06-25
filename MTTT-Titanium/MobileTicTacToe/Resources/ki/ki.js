@@ -72,6 +72,7 @@ var cpuTurn = function() {
 	mttt.app.gvc.buttonsArray[randomNumber].state = 2;
 	return;
 
+
 };
 
 var getRandomFreeField = function() {
