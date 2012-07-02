@@ -14,7 +14,7 @@ Ti.API.info('Including ui.js');
 			backgroundColor : '#fff'
 		});
 		var tab1 = Titanium.UI.createTab({
-			icon : 'KS_nav_views.png',
+			icon : '/images/controller.png',
 			title : 'Game',
 			window : win1
 		});
@@ -28,7 +28,7 @@ Ti.API.info('Including ui.js');
 			backgroundColor : '#fff'
 		});
 		var tab2 = Titanium.UI.createTab({
-			icon : 'KS_nav_ui.png',
+			icon : '/images/map.png',
 			title : 'Map',
 			window : win2
 		});
@@ -42,7 +42,7 @@ Ti.API.info('Including ui.js');
 			backgroundColor : '#fff'
 		});
 		var tab3 = Titanium.UI.createTab({
-			icon : 'KS_nav_ui.png',
+			icon : '/images/settings.png',
 			title : 'Settings',
 			window : win3
 		});

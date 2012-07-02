@@ -2,7 +2,6 @@
 Titanium.UI.setBackgroundColor('#000');
 
 Ti.include('mttt.js');
-
 // mttt.js creates the following namespaces
 // mttt
 // mttt.app
@@ -18,6 +17,8 @@ mttt.app.gmvc.attachToTab(threeTab);
 mttt.app.mapvc = mttt.ui.createMapViewController();
 var twoTab = mttt.app.tabGroup.tabs[1];
 mttt.app.mapvc.attachToTab(twoTab);
+
+Ti.include('/ui/network.js');
 
 mttt.app.gvc = mttt.ui.createGameStartMenuView();
 var oneTab = mttt.app.tabGroup.tabs[0];
